@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   border: solid 3px rgba(105, 105, 105, 0.479);
+  margin-bottom: 10px;
 }
 
 .details {
@@ -19,6 +20,6 @@
   align-items: center;
   justify-content: center;
   margin: 15px;
-  width: calc(50vw - 40px);
+  width: calc(50vw - 50px);
   text-align: center;
 }

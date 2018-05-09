@@ -1,5 +1,8 @@
 <%= render  "/layouts/restaurant-card-big", restaurant: @restaurant %>
-<div class="container">
+<br>
+<div class="container" style="background-color: rgba(105, 105, 105, 0.479)">
+  <h2>Reviews</h2>
+  <br>
   <% @restaurant.reviews.each do |r| %>
     <%= render  "/layouts/review_card", review: r %>
   <% end %>
