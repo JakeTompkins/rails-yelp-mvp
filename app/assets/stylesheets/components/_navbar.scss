@@ -38,6 +38,7 @@
 /* Navbar link */
 .navbar-wagon-link {
   color: #616668;
+  text-decoration: none;
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
@@ -74,4 +75,16 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+// My code
+
+.navbar-wagon {
+  position: sticky;
+}
+
+.navbar-wagon-right {
+  position: absolute;
+  list-style: none;
+  right: 15px;
 }
