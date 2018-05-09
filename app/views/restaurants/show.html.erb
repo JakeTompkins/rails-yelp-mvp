@@ -1,0 +1,6 @@
+<%= render  "/layouts/restaurant-card-big", restaurant: @restaurant %>
+<div class="container">
+  <% @restaurant.reviews.each do |r| %>
+    <%= render  "/layouts/review_card", review: r %>
+  <% end %>
+</div>

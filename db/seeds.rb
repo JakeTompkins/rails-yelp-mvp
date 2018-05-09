@@ -17,6 +17,14 @@ puts "Creating restaurants"
   r.phone_number = Faker::PhoneNumber.phone_number
   r.category = %w[chinese italian japanese french belgian].sample.capitalize
   r.save
+  5.times do
+    rev = Review.new
+    rev.content = Faker::FamilyGuy.quote
+    rev.rating = (0..5).to_a.sample
+    rev.restaurant = r
+    rev.save
+  end
+
 end
 
 puts "Created #{Restaurant.count} restaurants"

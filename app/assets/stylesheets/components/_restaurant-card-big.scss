@@ -1,0 +1,24 @@
+.restaurant-banner {
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/350');
+  background-size: cover;
+  background-position: center center;
+}
+
+.details-container {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: solid 3px rgba(105, 105, 105, 0.479);
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  width: calc(50vw - 40px);
+  text-align: center;
+}
