@@ -1,6 +1,6 @@
 .restaurant-card {
   position: relative;
-  margin: 0;
+  margin: 5px;
   height: 500px;
   width: 400px;
   background-color: white;
@@ -31,13 +31,14 @@
   grid-template-rows: 125px 125px;
 }
 
-.container {
+.restaurant.container {
   width: 400px;
 }
 
-.row div {
+.restaurant-details {
   text-align: center;
   margin-top: 12.5px;
-  font-weight:lighter;
+  font-weight: lighter;
+  font-size: 12px;
 }
 
